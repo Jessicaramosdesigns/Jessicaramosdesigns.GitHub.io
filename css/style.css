@@ -32,7 +32,6 @@ body {
     width: 100%;
     height: 100%;
     overflow-y: hidden; }
-
 a {
   color: #CA82F8;
   -webkit-transition: 0.5s;
@@ -56,10 +55,10 @@ ul, ol {
 span {
   font-size: 18px;
   color: rgba(114, 114, 114, 0.8); }
-
+/* change font to georgia and remove the serif*/
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Playfair Display", Georgia;
   margin: 0 0 30px 0; }
 
 ::-webkit-selection {
@@ -291,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
       opacity: 1; }
     #colorlib-main-nav .gallery:hover span, #colorlib-main-nav .gallery:focus span {
       opacity: 1; }
-
+/* change the color of the logo for css, and color contrast for background, color, and border */
 header {
   padding: 2em 0;
   position: absolute;
@@ -308,14 +307,14 @@ header {
     header .colorlib-navbar-brand .colorlib-logo {
       font-size: 20px;
       text-transform: uppercase;
-      color: #000;
+      color: #CA82F8;
       font-weight: 400;
       letter-spacing: 5px;
       padding: 7px;
-      border: 1px solid #000;
+      border: 1px solid #CA82F8;
       display: block;
       text-align: center;
-      background: #000; }
+      background: #CA82F8; }
       header .colorlib-navbar-brand .colorlib-logo span {
         display: block;
         margin-bottom: 0;
@@ -374,10 +373,10 @@ header {
       top: 8px;
       right: -40px;
       content: '';
-      background: #000;
+      background: viole;
       width: 40px;
       height: 1px; }
-
+/* change the size of the font */
 .about-desc {
   padding-top: 3em; }
   .about-desc h2 {
@@ -387,7 +386,7 @@ header {
       margin-bottom: 0;
       color: #000;
       font-size: 50px;
-      font-family: "Playfair Display", Georgia, serif; }
+      font-family: "Playfair Display", Georgia; }
   .about-desc .desc {
     padding-left: 6em;
     position: relative; }
@@ -417,13 +416,13 @@ header {
         background: #000;
         width: 40px;
         height: 1px; }
-
+/* change font size */
 .bold {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  font-size: 250px;
+  font-size: 200px;
   color: #f0f0f0;
   font-weight: 700; }
   @media screen and (max-width: 768px) {
@@ -449,6 +448,7 @@ header {
     font-weight: 600; }
 
 .services-img,
+
 .work-img,
 .gallery {
   background-size: cover;
@@ -678,14 +678,14 @@ header {
       display: inline-block; }
       @media screen and (max-width: 768px) {
         .services-flex .one-forth .one-third, .services-flex .one-forth .one-forth {
-          height: 400px; } }
+          height: 200px; } }
   .services-flex .one-third, .services-flex .one-forth {
     display: inline-block; }
     @media screen and (max-width: 768px) {
       .services-flex .one-third, .services-flex .one-forth {
         width: 100%;
         display: block; } }
-
+/* change the bullets to purple */
 .services {
   margin-bottom: 4em; }
   .services h3 {
@@ -698,11 +698,10 @@ header {
     margin-bottom: 10px; }
     .services ul li::before {
       content: '\2022';
-      color: #000;
+      color: violet;
       display: inline-block;
       width: 1em;
       margin-left: -1em; }
-
 .work-entry {
   display: block;
   margin-bottom: 5em;
